@@ -28,7 +28,8 @@ button {
 }
 /* Button turns red over 350ms, transition is ALWAYS set to parent element NOT THE HOVER */
 button:hover {
-  background-color: red;
+  background-color: black;
+  color: white;
 }
 footer {
   background: darkgray;
