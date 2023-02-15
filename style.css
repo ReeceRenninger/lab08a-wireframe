@@ -1,21 +1,69 @@
-header nav {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: gray;
+body {
+  background-color: #02162c;
+  color: white;
+  padding: 10px;
+  margin: 0;
 }
 
-main img{
+header {
+  background-color: gray;
+  color: white;
+  height: 50px;
+  padding: 60px;
+  justify-content: space-between;
+  border: solid 10px black;
+  border-radius: 5%;
+}
+
+header li {
+  list-style: none;
+  padding: 10px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  margin-top: -15px;
+}
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main li {
+  list-style: none;
+  padding: 17px;
+}
+
+main ul {
   display: flex;
   justify-content: center;
+  margin-right: 50px;
 }
-main ul{
-  display: flex;
-  justify-content: space-evenly;
-}
+
 section {
   display: flex;
-  justify-content: space-evenly;
+  padding: 10px;
+  border: solid 5px black;
 }
+
+article {
+  display: inline-block;
+  padding: 10px;
+}
+
+p {
+  height: 300px;
+  overflow: auto;
+  float: right;
+}
+
 /* Scrollable container */
 p {
   height: 300px;
@@ -31,7 +79,13 @@ button:hover {
   background-color: black;
   color: white;
 }
+
 footer {
-  background: darkgray;
-  height: 100px;
+  background-color: gray;
+  color:white;
+  width: auto;
+  padding: 10px;
+  display: flex;
+  height: 150px;
+  border: solid 5px black;
 }
