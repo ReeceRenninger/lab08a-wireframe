@@ -1,14 +1,21 @@
-nav {
+header nav {
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
   background-color: gray;
 }
 
+main img{
+  display: flex;
+  justify-content: center;
+}
 main ul{
   display: flex;
   justify-content: space-evenly;
 }
-
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
 /* Scrollable container */
 p {
   height: 300px;
