@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+}
+
+main ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Scrollable container */
+p {
+  height: 300px;
+  width: 300px;
+  overflow: auto;
+}
+/* Hover State with a transition */
+button {
+  transition: 350ms;
+}
+/* Button turns red over 350ms, transition is ALWAYS set to parent element NOT THE HOVER */
+button:hover {
+  background-color: red;
+}
+footer {
+  background: darkgray;
+  height: 100px;
+}
